@@ -57,9 +57,7 @@ yarn install
 
 #### **2. Start the Development Server**
 ```bash
-npm start
-# or
-yarn start
+npm run dev
 ```
 
 Access the app at [http://localhost:8081](http://localhost:8081).
@@ -163,15 +161,7 @@ const UserProfile = () => {
 export default UserProfile;
 ```
 
----
 
-### **Environment Variables**
-To set a custom port, create a `.env` file in the root directory and add:
-```bash
-PORT=8081
-```
-
----
 
 ### **Conclusion**
 This updated project integrates modern tools and practices, making it more scalable and maintainable. Feel free to explore and enhance it further!
